@@ -15,5 +15,5 @@ allprojects {
 }
 
 ext.postBuildExtras = {
-    apply plugin: 'com.google.firebase.crashlytics'
+    apply plugin: com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsPlugin
 }
